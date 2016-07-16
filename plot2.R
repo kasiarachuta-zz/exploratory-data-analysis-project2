@@ -8,5 +8,3 @@
 > AggregatedBaltimore <- aggregate(Emissions ~ year, baltimore, sum)
 > png('plot2.png')
 > barplot(height=AggregatedBaltimore$Emissions, names.arg=AggregatedBaltimore$year, xlab = "Year", ylab ="PM2.5 Emissions", main = "Baltimore PM2.5 Emissions")
-> barplot(height=AggregatedBaltimore$Emissions, names.arg=AggregatedBaltimore$year, xlab = "Year", ylab ="PM2.5 Emissions", main = "Baltimore PM2.5 Emissions")
-> 
